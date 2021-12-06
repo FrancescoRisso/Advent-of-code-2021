@@ -7,6 +7,7 @@ input = input
 		return parseInt(x);
 	});
 
+// ages[n] stores how many lanternfishes have age n
 ages = new Array(9).fill(0);
 
 input.forEach((n) => {
